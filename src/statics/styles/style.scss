@@ -1,0 +1,40 @@
+//== Colors
+//
+
+$orange: #fd1900;
+$orange-alt: #f12d2d;
+$orange-alt-2:#F32C40;
+
+$purple: #6a29e4;
+$purple-alt: #421498;
+$purple-alt-2: #381082;
+$white: #FFF;
+$white-alt: #F8F8F8;
+$green: #27FF84;
+$green-alt: #00B74F;
+$gray: #7B7C85;
+
+$send-button-bg-color:$orange-alt;
+$bottom-bg-color:$purple-alt;
+
+$purple-gradient: rgba(56,16,130,1)!important;
+$bg-gradient: linear-gradient(163deg, #381082 40%, #9f184c 127%, #f71e1e 182%) !important;
+
+
+.btn-primary{
+  border-radius: 50px;
+  background: $green-alt;
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+  padding: .5em;
+  width: 85%;
+}
+.btn-primary-outline{
+  @extend .btn-primary;
+  background: transparent;
+  border: 1px solid;
+  &:focus{
+    outline: none;
+  }
+}
